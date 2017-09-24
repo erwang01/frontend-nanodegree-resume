@@ -92,6 +92,12 @@ a {
   display: block;
 }
 
+.right-justify {
+  width: 100%;
+  text-align: right;
+  float: right;
+}
+
 .welcome-message {
   font-style: italic;
   font-size: 18px;
