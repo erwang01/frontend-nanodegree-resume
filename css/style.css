@@ -26,7 +26,6 @@ h6 {
 
 h1 {
   font-size: 40px;
-  color: #f5a623;
   line-height: 48px;
   display: inline;
 }
@@ -34,16 +33,16 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #999;
+  color: #aed581;
   line-height: 29px;
   padding: 10px;
 }
 
 h3 {
   font-style: italic;
-  font-size: 20px;
-  color: #000;
-  line-height: 22px;
+  font-size: 18px;
+  color: #7da453;
+  line-height: 20px;
 }
 
 h4 {
@@ -65,7 +64,7 @@ h5 {
 .date-text {
   font-style: italic;
   font-size: 14px;
-  color: #999;
+  color: #aaaaaa;
   line-height: 16px;
   float: left;
 }
@@ -73,7 +72,7 @@ h5 {
 .location-text {
   font-style: italic;
   font-size: 14px;
-  color: #999;
+  color: #aaaaaa;
   line-height: 16px;
   float: right;
 
@@ -81,15 +80,19 @@ h5 {
 
 p {
   font-size: 14px;
-  color: #333;
+  color: #C5CAE9;
   line-height: 21px;
 }
 
 a {
-  color: #1199c3;
+  color: #000051;
   text-decoration: none;
   margin-top: 10px;
   display: block;
+}
+
+em {
+  color: #C5CAE9;
 }
 
 .right-justify {
@@ -106,10 +109,10 @@ a {
 }
 
 #skills-h3 {
-  color: #f5ae23;
   display: none;
 }
 
+/*
 .orange {
   background-color: #f5ae23;
 }
@@ -117,7 +120,7 @@ a {
 .orange-text {
   color: #f5ae23;
 }
-
+*/
 .white-text {
   font-weight: bold;
   color: #fff;
@@ -134,9 +137,11 @@ a {
 }
 
 /* TODO: Replace with image later */
+/*
 #header {
   background-color: #484848;
 }
+*/
 
 .flex-box {
   display: -webkit-flex;

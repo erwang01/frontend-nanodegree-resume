@@ -16,10 +16,11 @@ var bio = {
     "welcomeMessage": "Hello",
     "skills": ["FEND", "Running"],
     "display": function() {
-        $("#header").prepend(internationalizeButton);
-        $("#header").prepend(HTMLheaderRole.replace("%data%", bio.role));
-        $("#header").prepend(HTMLheaderName.replace("%data%", bio.name));
-
+        
+        $("#header").prepend($(HTMLheaderRole.replace("%data%", bio.role)).addClass('right-justify'));
+        $("#header").prepend($(HTMLheaderName.replace("%data%", bio.name)).addClass('right-justify'));
+        $("#header").find().addClass('text-primary-color');
+        $("#header").find('h1').before(internationalizeButton);
 
         $("#topContacts, #footerContacts").append(HTMLmobile.replace("%data%", bio.contacts.mobile));
         $("#topContacts, #footerContacts").append(HTMLemail.replace("%data%", bio.contacts.email));
@@ -196,3 +197,4 @@ var inName = function(name) {
 
 /*Adds google map functionality*/
 $("#mapDiv").append(googleMap);
+
